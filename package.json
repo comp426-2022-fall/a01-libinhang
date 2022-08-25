@@ -1,0 +1,23 @@
+{
+  "name": "a01-webserver",
+  "version": "1.0.0",
+  "description": "This is a webserver built on Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-libinhang.git"
+  },
+  "author": "@libinhang",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-libinhang/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-libinhang#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
